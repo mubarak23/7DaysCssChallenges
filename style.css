@@ -1,7 +1,30 @@
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
-.hero-image{
-    
+.hero-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/profile-pic.jpg');
+*/
+  background-image: linear-gradient(
+      135deg,
+      rgba(49, 24, 131, 0.9) 0%,
+      rgba(72, 56, 149, 0.8)
+    ),
+    url('images/profile-pic.jpg');
+  height: 50%;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -10%);
+  color: black;
 }
