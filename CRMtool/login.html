@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CRM Tool Login</title>
+    <!--Ion Icons-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aldrich&display=swap"
+      rel="stylesheet"
+    />
+    <!--Our own stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: rgb(207, 204, 202);
+      }
+      .card {
+        margin: auto;
+        margin-top: 150px;
+        float: none;
+        margin-bottom: 10px;
+        width: 450px;
+        height: 300px;
+      }
+      .card-title {
+        text-align: center;
+      }
+      .email {
+        margin-top: 10px;
+      }
+      .password {
+        margin-top: 10px;
+      }
+      .form-control {
+        height: 60px;
+      }
+      .btn {
+        margin-top: 10px;
+      }
+      .reset {
+        text-align: right;
+      }
+      .create {
+        margin: auto;
+        margin-top: 10px;
+        float: none;
+        margin-bottom: 10px;
+        width: 450px;
+        height: 70px;
+      }
+      .new {
+        text-align: center;
+        font-family: montserrat;
+        font-size: medium;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">CRM Tool</h5>
+            <div>
+              <form class="form-group">
+                <div class="email">
+                  <input class="form-control" type="text" placeholder="EMAIL" />
+                </div>
+                <div class="password">
+                  <input
+                    class="form-control"
+                    type="password"
+                    placeholder="PASSWORD"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="submit"
+                    class="btn btn-lg btn-success btn-block"
+                    value="Login"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="reset">
+              <a href="#" class="card-link">Reset Password</a>
+            </div>
+          </div>
+        </div>
+        <div class="card create">
+          <div class="card-body new">CREATE AN ACCOUNT</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
